@@ -1,0 +1,69 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 250px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.table::-webkit-scrollbar {
+  display: none;
+}
+
+th,
+td {
+  text-align: center;
+  align-content: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #1e96b8;
+  color: white;
+}
+
+tbody {
+  height: 50px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+input[type="text"],
+select {
+  width: 50%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+input[type="password"],
+select {
+  width: 50%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+button {
+  background-color: #076972;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.t1 {
+  width: 100%;
+  align-self: center;
+  border: #050708;
+  border-bottom: 100% solid #ddd;
+}
